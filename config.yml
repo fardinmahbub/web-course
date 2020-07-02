@@ -1,4 +1,3 @@
-title: Web
 description: p
 template:
   repo: web-template
@@ -7,6 +6,7 @@ before:
   - type: createIssue
     title: Welcome!
     body: new-issue.md
+  - type: findInTree
 steps:
   - title: First step
     description: The first step in your course
